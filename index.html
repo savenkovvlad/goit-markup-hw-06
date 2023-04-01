@@ -147,7 +147,8 @@
                 <a href="#" class="btn-social">
                   <svg class="info-icon-link" width="16" height="16">
                     <use href="./images/sprite.svg#icon-twitter-1"></use>
-                  </svg></a>
+                  </svg>
+                </a>
               </li>
               <li class="list-item-link">
                 <a href="#" class="btn-social">
@@ -318,7 +319,6 @@
       </div>
       <div class="link-block">
         <p class="title-footer-link">Social media</p>
-
         <ul class="list-footer-link">
           <li class="item-footer-list">
             <a href="#" class="social-link">
@@ -349,11 +349,91 @@
           </li>
         </ul>
       </div>
+
+
+  <form class="footer-form">
+    <p class="decs-footer-form">Subscribe</p>
+   <span class="block-form-footer">
+    <input type="email" name="user-email-subscribe"
+     required class="input-footer" placeholder="E-mail"
+    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+
+    <button type="submit" class="footer-bnt">Subscribe<svg class="footer-icon-tg">
+      <use></use>
+    </svg>
+  </button>
+
+  </span>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   </footer>
 
+<!-- modal -->
+
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
+      <p class="description-form">Leave your contacts and we will call you back</p>
+     
+      <form class="modal-form">
+
+        <label class="modal-label">
+          <span class="span-name">Name</span>
+          <span class="block-modal">
+            <input type="text" name="user-name" required class="form-input" pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$" minlength="2" />
+            <svg class="icon-modal">
+              <use href="./images/icons-modal.svg#icon-person"></use>
+            </svg>
+          </span>
+        </label>
+
+        <label class="modal-label">
+          <span class="span-name">Phone</span>
+          <span class="block-modal">
+            <input type="tel" name="user-phone" required class="form-input" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}"
+              title="xxx-xxx-xx-xx" />
+
+            <svg class="icon-modal">
+              <use href="./images/icons-modal.svg#icon-phone"></use>
+            </svg>
+          </span>
+        </label>
+
+        <label class="modal-label">
+          <span class="span-name">Email</span>
+          <span class="block-modal">
+            <input type="email" name="user-email" required class="form-input"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+            <svg class="icon-modal">
+              <use href="./images/icons-modal.svg#icon-email"></use>
+            </svg>
+          </span>
+        </label>
+
+        <span class="span-name">Comment</span>
+
+        <textarea name="user-message" class="textarea-comment" placeholder="Text input"></textarea>
+
+        <input class="modal-label-check visually-hidden" id="user-policy" name="policy-user" type="checkbox"/>
+        <label for="user-policy"  class="modal-label-check-decs">
+          I accept the terms and conditions of the&nbsp;<a href="#" class="policy"> Privacy Policy</a>
+        </label>
+        <button type="submit" class="modal-form-bnt">Send</button>
+      </form>
+
       <button data-modal-close type="button" class="modal-close-btn">
         <svg class="modal-icon-close" width="8" height="8">
           <use href="./images/close.svg#icon-close-icon"></use>
