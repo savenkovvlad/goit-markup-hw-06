@@ -277,7 +277,7 @@ img {
 	width: 1158px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0 15px;
+	padding: 0 14px;
 	
 }
 
@@ -979,13 +979,11 @@ img {
 
 .input-footer {
 	width: 264px;
-	
 	height: 40px;
 	border: 1px solid #FFFFFF;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	border-radius: 4px;
 	padding-left: 16px;
-
 	background-color: #2E2F42;
 	margin-right: 24px;
 
@@ -999,7 +997,6 @@ img {
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 24px;
-
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.04em;
@@ -1007,29 +1004,37 @@ img {
 
 
 
-
 .footer-bnt {
 
-	flex-direction: row;
 	background-color: #4D5AE5;
 	border-radius: 4px;
 	height: 40px;
-	width: 163px;
+	width: 165px;
 	padding-right: 64px;
-	justify-content: center;
+padding-left: 24px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 500;
 	line-height: 24px;
-	align-items: center;
-	text-align: center;
+	
 	letter-spacing: 0.04em;
 	color: #FFFFFF;
 	outline: none;
-
+background-image: url(../images/telegram-icon.svg);
+background-repeat: no-repeat;
+background-position: 117px ;
+background-size: 24px 20px;
+border: none;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.block-form-footer{ }
 
 
-.icon-modal{ }
+.footer-bnt:focus { border: none;
+	background-color: #404bbf;
+	
+}
+
+.footer-bnt:hover { border: none;
+	background-color: #404bbf;}
+	

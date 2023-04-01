@@ -349,51 +349,30 @@
           </li>
         </ul>
       </div>
-
-
-  <form class="footer-form">
-    <p class="decs-footer-form">Subscribe</p>
-   <span class="block-form-footer">
-    <input type="email" name="user-email-subscribe"
-     required class="input-footer" placeholder="E-mail"
-    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
-
-    <button type="submit" class="footer-bnt">Subscribe<svg class="footer-icon-tg">
-      <use></use>
-    </svg>
-  </button>
-
-  </span>
-
-    </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <form class="footer-form">
+        <p class="decs-footer-form">Subscribe</p>
+        <span class="block-form-footer">
+          <input type="email" name="user-email-subscribe" required class="input-footer" placeholder="E-mail"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+          <button type="submit" class="footer-bnt">Subscribe</button>
+        </span>
+      </form>
     </div>
   </footer>
 
-<!-- modal -->
+  <!-- modal -->
 
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <p class="description-form">Leave your contacts and we will call you back</p>
-     
+
       <form class="modal-form">
 
         <label class="modal-label">
           <span class="span-name">Name</span>
           <span class="block-modal">
-            <input type="text" name="user-name" required class="form-input" pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$" minlength="2" />
+            <input type="text" name="user-name" required class="form-input" pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
+              minlength="2" />
             <svg class="icon-modal">
               <use href="./images/icons-modal.svg#icon-person"></use>
             </svg>
@@ -427,8 +406,8 @@
 
         <textarea name="user-message" class="textarea-comment" placeholder="Text input"></textarea>
 
-        <input class="modal-label-check visually-hidden" id="user-policy" name="policy-user" type="checkbox"/>
-        <label for="user-policy"  class="modal-label-check-decs">
+        <input class="modal-label-check visually-hidden" id="user-policy" name="policy-user" type="checkbox" />
+        <label for="user-policy" class="modal-label-check-decs">
           I accept the terms and conditions of the&nbsp;<a href="#" class="policy"> Privacy Policy</a>
         </label>
         <button type="submit" class="modal-form-bnt">Send</button>
