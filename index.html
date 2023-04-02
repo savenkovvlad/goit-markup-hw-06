@@ -351,11 +351,11 @@
       </div>
       <form class="footer-form">
         <p class="decs-footer-form">Subscribe</p>
-        <span class="block-form-footer">
+        <div class="block-form-footer">
           <input type="email" name="user-email-subscribe" required class="input-footer" placeholder="E-mail"
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
           <button type="submit" class="footer-bnt">Subscribe</button>
-        </span>
+        </div>
       </form>
     </div>
   </footer>
@@ -402,10 +402,10 @@
           </span>
         </label>
 
-        <span class="span-name">Comment</span>
+        <label class="modal-label-comment"> <span class="span-name">Comment</span>
 
-        <textarea name="user-message" class="textarea-comment" placeholder="Text input"></textarea>
-
+          <textarea name="user-message" class="textarea-comment" placeholder="Text input"></textarea>
+        </label>
         <input class="modal-label-check visually-hidden" id="user-policy" name="policy-user" type="checkbox" />
         <label for="user-policy" class="modal-label-check-decs">
           I accept the terms and conditions of the&nbsp;<a href="#" class="policy"> Privacy Policy</a>
