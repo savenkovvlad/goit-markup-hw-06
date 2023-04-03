@@ -833,7 +833,7 @@ cursor: pointer;
 .form-input:focus+.icon-modal {
 	fill: #4D5AE5;
 }
-.modal-label-comment{margin-bottom: 8px;}
+.modal-label-comment{margin-bottom: 16px;}
 
 .modal-label{margin-bottom: 8px;}
 
@@ -850,7 +850,7 @@ cursor: pointer;
 	padding-right: 16px;
 	padding-top: 8px;
 	padding-bottom: 8px;
-
+	display: block;
 
 }
 
